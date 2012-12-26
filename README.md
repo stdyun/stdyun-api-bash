@@ -9,8 +9,7 @@ stdyun's api, bash version
 1. usename是你在stdyun的注册邮箱。
 1. password是你在stdyun的密码。
 
-
-
+    
     username="change your email"
     password="change your password"
 
