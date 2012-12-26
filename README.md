@@ -4,6 +4,22 @@ stdyun's api, bash version
 
 ## Usage
 
+  username="change your email"
+  password="change your password"
+
+  creation_json='
+  {
+      "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.0", 
+      "package": "m2", 
+      "metadata": {
+          "credentials": {
+              "stdyun":"stdyunrocks"
+          }
+      }
+  }'
+  
+请先修改dataset，packages，以及stdyun的密码。
+
 * 查询镜像
  * ./stdyun.sh datasets getall
 * 查询配置
