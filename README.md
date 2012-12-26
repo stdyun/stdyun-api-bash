@@ -41,4 +41,4 @@ stdyun's api, bash version
  * ./stdyun.sh machines stop 686ac2a1-9672-4e7c-b484-7f61387f1a17
 * 删除主机
  * ./stdyun.sh machines delete 686ac2a1-9672-4e7c-b484-7f61387f1a17
- * 注意：只允删除已关闭的主机。
+ * 注意：只允许删除已关闭的主机。
