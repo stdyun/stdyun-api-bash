@@ -7,7 +7,7 @@ password="change your password"
 creation_json='
 {
     "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.0", 
-    "package": "m2", 
+    "package": "m1", 
     "metadata": {
         "credentials": {
             "stdyun":"stdyunrocks"
