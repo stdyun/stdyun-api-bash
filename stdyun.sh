@@ -20,7 +20,7 @@ api_set=$1
 api_action=$2
 api_id=$3
 
-curl_options="-isv"
+curl_options=""
 
 function machines {
     case $api_action in
