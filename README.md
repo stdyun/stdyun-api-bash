@@ -33,7 +33,7 @@ stdyun's api, bash version
  * ./stdyun.sh machines getall
 * 创建主机
  * ./stdyun.sh machines create
- * 主机设置请参看API文档中的[创建主机](https://stdyun.com/doc/api create-machine)。
+ * 主机设置请参看API文档中的[创建主机](https://stdyun.com/doc/api#create-machine "创建主机")。
  * 注意: 请先修改默认的dataset设置，否则会有安全问题。
 * 获取主机信息 
  * ./stdyun.sh machines get 686ac2a1-9672-4e7c-b484-7f61387f1a17
