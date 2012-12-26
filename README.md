@@ -5,8 +5,9 @@ stdyun's api, bash version
 ## Usage
 
 请先修改username，password，以及创建主机的参数，包括dataset，packages，stdyun的密码。
-* usename是你在stdyun的注册邮箱。
-* password是你在stdyun的密码
+1. usename是你在stdyun的注册邮箱。
+1. password是你在stdyun的密码。
+
 
     username="change your email"
     password="change your password"
