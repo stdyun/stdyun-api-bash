@@ -10,22 +10,20 @@ stdyun's api, bash version
 1. password是你在stdyun的密码。
 
     
-    username="change your email"
-    password="change your password"
+     username="change your email"
+     password="change your password"
 
-    creation_json='
-     {
-       "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.0", 
-       "package": "m2", 
-       "metadata": {
-           "credentials": {
-               "stdyun":"stdyunrocks"
-           }
-       }
-     }
-    '
-  
-
+     creation_json='
+      {
+        "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.0", 
+        "package": "m2", 
+        "metadata": {
+            "credentials": {
+                "stdyun":"stdyunrocks"
+            }
+        }
+      }
+     '
 
 * 查询镜像
  * ./stdyun.sh datasets getall
