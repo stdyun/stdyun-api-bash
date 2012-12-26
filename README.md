@@ -4,6 +4,8 @@ stdyun's api, bash version
 
 ## Usage
 
+请先修改dataset，packages，以及stdyun的密码。
+
   username="change your email"
   password="change your password"
 
@@ -18,7 +20,7 @@ stdyun's api, bash version
       }
   }'
   
-请先修改dataset，packages，以及stdyun的密码。
+
 
 * 查询镜像
  * ./stdyun.sh datasets getall
