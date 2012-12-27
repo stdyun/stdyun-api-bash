@@ -119,17 +119,17 @@ function datasets {
     esac
 }
 
-if [ $api_set = "machines" ]; then
+if [[ $api_set = "machines" ]]; then
     machines
     echo ""
 fi
 
-if [ $api_set = "datasets" ]; then
+if [[ $api_set = "datasets" ]]; then
     datasets
     echo ""
 fi
 
-if [ $api_set = "packages" ]; then
+if [[ $api_set = "packages" ]]; then
     packages
     echo ""
 fi
