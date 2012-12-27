@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# Client CLI for the stdyun API 
+# https://stdyun.com/doc/api
 
 url="https://stdyun.com"
 username="changeyouremail"
@@ -119,6 +122,23 @@ function datasets {
     esac
 }
 
+function usage {
+    echo "Usage:"
+    echo "   $0 machines getall"
+    echo "   $0 machines get [ID]"
+    echo "   $0 machines create"
+    echo "   $0 machines reboot [ID]"
+    echo "   $0 machines stop [ID]"
+    echo "   $0 machines delete [ID]"
+    echo "   $0 datasets getall"
+    echo "   $0 packages getall"
+}
+
+if [[ ! -n $1 ]] ; then
+    usage
+    exit 0
+fi
+
 if [[ $api_set = "machines" ]]; then
     machines
     echo ""
@@ -134,4 +154,4 @@ if [[ $api_set = "packages" ]]; then
     echo ""
 fi
 
-exit
+exit 0
