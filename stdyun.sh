@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 url="https://stdyun.com"
-username="change your email"
-password="change your password"
+username="changeyouremail"
+password="changeyourpassword"
 
 creation_json='
 {
