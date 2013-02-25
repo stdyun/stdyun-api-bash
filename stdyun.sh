@@ -54,7 +54,7 @@ function machines {
                 -X POST
             ;;
         "delete" )
-            curl "$url/api/v1/machines/$api_id?action=delete" \
+            curl "$url/api/v1/machines/$api_id" \
                 $curl_options \
                 -u $username:$password \
                 -H "Accept: application/json" \
