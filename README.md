@@ -10,8 +10,8 @@ stdyun's api, bash version
 1. password是你在stdyun的密码。
 
     
-        username="change your email"
-        password="change your password"
+        username="changeyouremail"
+        password="changeyourpassword"
 
         creation_json='
          {
