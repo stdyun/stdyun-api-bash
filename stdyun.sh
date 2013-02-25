@@ -9,11 +9,11 @@ password="changeyourpassword"
 
 creation_json='
 {
-    "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.0", 
+    "dataset": "stdyun:stdyun:ubuntu-12.04:1.0.3", 
     "package": "m1", 
     "metadata": {
         "credentials": {
-            "stdyun":"stdyunrocks"
+            "root":"stdyunrocks"
         }
     }
 }
